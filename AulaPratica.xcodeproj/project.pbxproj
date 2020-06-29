@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC6AF2B124A114C00079AE04 /* AulaPratica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6AF2B024A114C00079AE04 /* AulaPratica.storyboard */; };
+		DC738AA524AA153E002E3C40 /* PlanetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC738AA424AA153E002E3C40 /* PlanetaCell.swift */; };
 		DCDCFA6324A0CC52008ADB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDCFA6224A0CC52008ADB9A /* AppDelegate.swift */; };
 		DCDCFA6524A0CC52008ADB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDCFA6424A0CC52008ADB9A /* ViewController.swift */; };
 		DCDCFA6824A0CC52008ADB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDCFA6624A0CC52008ADB9A /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC6AF2B024A114C00079AE04 /* AulaPratica.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AulaPratica.storyboard; path = ../../arthur/AulaPratica.storyboard; sourceTree = "<group>"; };
+		DC738AA424AA153E002E3C40 /* PlanetaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetaCell.swift; sourceTree = "<group>"; };
 		DCDCFA5F24A0CC52008ADB9A /* AulaPratica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaPratica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDCFA6224A0CC52008ADB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCDCFA6424A0CC52008ADB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,6 @@
 		DCDCFA5624A0CC52008ADB9A = {
 			isa = PBXGroup;
 			children = (
-				DC6AF2B024A114C00079AE04 /* AulaPratica.storyboard */,
 				DCDCFA6124A0CC52008ADB9A /* AulaPratica */,
 				DCDCFA6024A0CC52008ADB9A /* Products */,
 			);
@@ -63,6 +62,7 @@
 				DCDCFA6924A0CC53008ADB9A /* Assets.xcassets */,
 				DCDCFA6B24A0CC53008ADB9A /* LaunchScreen.storyboard */,
 				DCDCFA6E24A0CC53008ADB9A /* Info.plist */,
+				DC738AA424AA153E002E3C40 /* PlanetaCell.swift */,
 			);
 			path = AulaPratica;
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6AF2B124A114C00079AE04 /* AulaPratica.storyboard in Resources */,
 				DCDCFA6D24A0CC53008ADB9A /* LaunchScreen.storyboard in Resources */,
 				DCDCFA6A24A0CC53008ADB9A /* Assets.xcassets in Resources */,
 				DCDCFA6824A0CC52008ADB9A /* Main.storyboard in Resources */,
@@ -141,6 +140,7 @@
 			files = (
 				DCDCFA6524A0CC52008ADB9A /* ViewController.swift in Sources */,
 				DCDCFA6324A0CC52008ADB9A /* AppDelegate.swift in Sources */,
+				DC738AA524AA153E002E3C40 /* PlanetaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
